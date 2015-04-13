@@ -1,0 +1,18 @@
+{
+    "user": "Big Joe",
+    "tall": null,
+    "animals": [
+        {
+            "name": "white mouse",
+            "price": 30
+        },
+        {
+            "name": "black mouse",
+            "price": 25
+        },
+        {
+            "name": "green mouse",
+            "price": 150
+        }
+    ]
+}

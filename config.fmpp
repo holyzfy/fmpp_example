@@ -1,0 +1,3 @@
+sources: src/index.html
+outputFile: out/index.html
+data: {data: json(data/test.json), status: "testsss"}

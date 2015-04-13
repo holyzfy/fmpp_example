@@ -1,0 +1,10 @@
+<h1>Hello ${data.user}!</h1>
+<p>status= ${status}</p>
+<p>Our offers:
+<ul>
+  <#list data.animals as animal>
+    <li>${animal.name?cap_first} for ${animal.price} credits
+  </#list>
+</ul>
+
+<p>Note that we know that you are <#if !(data.tall??)>not </#if> tall, ${data.user}.</p>
